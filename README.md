@@ -20,10 +20,16 @@ My config files for configuring my corne keyboard.
 
 ![layer 3](/images/layer3.png)
 
-## Flashing Instructions
+## Flashing Vial firmware
 
 1. Detach USB cable from PC.
 2. Detach TRRS cable from both spilts.
-3. Attach one side to PC and run the following command `qmk flash -bl avrdude [hex file]`, detach.
+3. Attach one side to PC and run the following command `qmk flash -bl avrdude vial-firmware.hex`, detach.
 4. Attach other side to PC and run the previous command again, detach.
 5. Done!
+
+## Updating Keybinds
+
+1. Open vial software.
+2. Modify keyboard layout as you please, the software will automatically save these changes.
+3. Profit.
